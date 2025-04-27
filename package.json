@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "wrangler pages deploy .next",
+    "deploy": "wrangler pages deploy .next --project-name=react-shop",
     "deploy:prod": "npm run build && npm run deploy"
   },
   "dependencies": {
