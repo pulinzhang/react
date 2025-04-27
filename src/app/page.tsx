@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+'use client';
 
 import { mockUsers, mockProducts } from '@/mocks/data';
 import Link from 'next/link';
