@@ -1,0 +1,32 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Products",
+    "users": "Users",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "search": "Search...",
+    "addToCart": "Add to Cart",
+    "cart": "Cart",
+    "price": "Price",
+    "description": "Description",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "admin": "Admin",
+    "user": "User"
+  },
+  "products": {
+    "title": "Product List",
+    "noProducts": "No products available"
+  },
+  "users": {
+    "title": "User List",
+    "noUsers": "No users available"
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "loginRequired": "Please login to continue"
+  }
+} 

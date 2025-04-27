@@ -1,0 +1,32 @@
+{
+  "common": {
+    "home": "首页",
+    "products": "产品",
+    "users": "用户",
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出",
+    "search": "搜索...",
+    "addToCart": "加入购物车",
+    "cart": "购物车",
+    "price": "价格",
+    "description": "描述",
+    "name": "名称",
+    "email": "邮箱",
+    "role": "角色",
+    "admin": "管理员",
+    "user": "用户"
+  },
+  "products": {
+    "title": "产品列表",
+    "noProducts": "暂无产品"
+  },
+  "users": {
+    "title": "用户列表",
+    "noUsers": "暂无用户"
+  },
+  "auth": {
+    "welcome": "欢迎",
+    "loginRequired": "请登录以继续"
+  }
+} 
