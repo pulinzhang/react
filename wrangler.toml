@@ -8,9 +8,5 @@ publish = ".next"
 [site]
 bucket = ".next"
 
-[[routes]]
-pattern = "/*"
-zone_name = "your-domain.com"  # 替换为你的域名 
-
 [pages]
 account_id = "your-account-id"  # 替换为你的 Cloudflare Account ID 
