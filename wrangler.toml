@@ -3,10 +3,10 @@ compatibility_date = "2024-03-20"
 
 [build]
 command = "npm run build"
-publish = ".next"
+publish = ".next/static"
 
 [site]
-bucket = ".next"
+bucket = ".next/static"
 
 [pages]
 account_id = "your-account-id"  # 替换为你的 Cloudflare Account ID 
