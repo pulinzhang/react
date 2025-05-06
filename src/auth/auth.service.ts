@@ -6,7 +6,7 @@ export class AuthService {
   constructor(private readonly jwtService: JwtService) {}
 
   async validateUser(username: string, password: string): Promise<any> {
-    // 实现用户验证逻辑
+    // Implement user validation logic here
     return null;
   }
 
