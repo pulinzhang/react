@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "nest build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npx wrangler pages deploy .next/static --project-name=react-shop",
+    "deploy": "npm run build && wrangler deploy",
     "deploy:staging": "wrangler deploy --env staging",
     "deploy:prod": "wrangler deploy --env production"
   },
