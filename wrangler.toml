@@ -7,14 +7,17 @@ command = "npm run build"
 
 [env.production]
 name = "nest-auth-app-prod"
-route = "api.yourdomain.com/*"
+workers_dev = true
 
 [env.staging]
 name = "nest-auth-app-staging"
-route = "staging-api.yourdomain.com/*"
+workers_dev = true
 
 [site]
 bucket = ".next/static"
 
 [pages]
 account_id = "your-account-id"  # 替换为你的 Cloudflare Account ID 
+
+[build.upload]
+format = "service-worker" 

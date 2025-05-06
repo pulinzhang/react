@@ -8,17 +8,20 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "npx wrangler pages deploy .next/static --project-name=react-shop",
-    "deploy:prod": "npm run build && npm run deploy"
+    "deploy:staging": "wrangler deploy --env staging",
+    "deploy:prod": "wrangler deploy --env production"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.0",
     "@nestjs/core": "^11.1.0",
     "@nestjs/jwt": "^11.0.0",
+    "@nestjs/platform-express": "^11.1.0",
     "i18next": "^23.7.16",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-i18next": "^14.0.5"
+    "react-i18next": "^14.0.5",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250427.0",
